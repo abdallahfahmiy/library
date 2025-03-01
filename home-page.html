@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/s-home-page.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Home|Page</title>
+</head>
+<body>
+    <!--start header-->
+    <div class="header">
+        <div class="container ">
+            <div class="row">
+                <div class="col-2 " >
+                    <a href="home-page.html">
+                        <img src="image/logo(1).png" alt="" srcset="" class="logo-img">
+                    </a>
+                </div>
+                <div class="col-8 m-4 ">
+                   <div class="input-group">
+                    <select name="search" id="se" class="form-select rounded-0"  >
+                        <option value="all"> Search in all category</option>
+                        <option value="category1">Noveis</option>
+                        <option value="category2">Translated Books</option>
+                        <option value="category3">Paid books</option>
+                    </select>
+                    <input type="search" name="search" placeholder="what are you looking ?" class="form-control rounded-0 text">
+                    <button type="button" class="btn btn-danger rounded-0 ">
+                        <i class="fas fa-search text-white "></i>
+                    </button>
+                   </div>
+                </div>
+            </div>
+        </div>
+            <!--navbar-->
+            <div class="row nav" style="border-top: 1px solid rgb(50, 49, 49);">
+        <nav class="navbar">
+            <div class="col">
+              <ul class="nav-links">
+                <li class="nav-item dropdown" id="homedropdown">
+                  <a class="nav-link style-bold" href="#"><i class="fas fa-home" style="margin-top: 3px;"></i>Home <span><i class="fas fa-chevron-down"></i></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="home-page.html" class="dropdown-item">Home-Library</a></li>
+                      <li><a href="http://" class="dropdown-item">Home-MET Reader</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown" id="bookdropdown">
+                  <a class="nav-link style-bold" href="#">All Books <span><i class="fas fa-chevron-down"></i></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="english-books.html">English</a></li>
+                    <li><a class="dropdown-item" href="Languages-arabic.html">Arabic</a></li>
+                    <li><a class="dropdown-item" href="Business Administration.html">Business Management</a></li>
+                    <li><a class="dropdown-item" href="Programming.html">Programming</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link style-bold" href="kids-page.html">Kides books</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link style-bold" href="kids-page.html">Novels</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link style-bold" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="far fa-heart" style="margin-top: 5px;"></i><span class="favorite" style="color: rgba(142, 142, 142, 1); font-size: 13px; margin-top: 4px; margin-left: -3px;">(0)</span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3" style="width: 24%;">
+              <ul class="nav-links mr">
+                <li><a href="login.html" class="nav-link style-no-bold">Login</a></li>
+                <li><a href="register.html" class="nav-link style-no-bold">Register</a></li>
+              </ul>
+            </div>
+          </nav>
+     </div>
+     <!--navbar-->
+    </div>
+    <!--end header-->
+    <!--start slide-->
+    <div id="carouselExampleCaptions" class="carousel slide ">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/slide1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5 style=" color: rgba(255, 255, 255, 1); text-align: start; margin-top: 25px; margin-left: -22px;font-size: 20px;">Most Downloaded Books This Month</h5>
+            <p style="color: rgba(255, 255, 255, 1);
+                font-size: 18px;
+                font-family: 'libre franklin';
+                 width: 417px;
+                  margin-bottom: 160px; 
+                  text-align: start;">
+              This is a list of the most popular books on our website.
+            </p>
+            <button type="button" class="btn" style=" 
+              background: radial-gradient(89.1% 89.1% at 10.9% 50%, #0004FF 0%, #ACADDA 100%);
+              margin-top: -247px;
+               margin-left: -740px;
+              font-family: kovoon; 
+              font-size: 20px;">
+              Browse Now
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/slide2.png" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5 style=" color:rgba(234, 69, 65, 1); text-align: start; margin-top: 25px; margin-left: -22px;font-size: 20px;">Most Downloaded Books This Month</h5>
+            <p style="color: rgba(234, 69, 65, 1);
+                font-size: 18px; 
+                width: 417px;
+                 margin-bottom: 160px;
+                  font-family: libre franklin; 
+                  text-align: start;">
+              This is a list of the most popular books on our website.
+            </p>
+            <button type="button" class="btn" style=" 
+           background: radial-gradient(100% 100% at 0% 66.01%, #EB4541 64.08%, #E7C4C3 96.72%);
+           margin-top: -247px;
+               margin-left: -740px;
+              font-family: kovoon; 
+              font-size: 20px;">
+              Browse Now
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/slide3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5 style="  color: rgba(255, 255, 255, 1); text-align: start; margin-top: 25px; margin-left: -22px;font-size: 20px;">Most Downloaded Books This Month</h5>
+            <p style=" color: rgba(255, 255, 255, 1);
+                font-size: 18px; width: 417px; margin-bottom: 160px; font-family: libre franklin; text-align: start;">
+              This is a list of the most popular books on our website.
+            </p>
+            <button type="button" class="btn" style=" 
+              background: radial-gradient(89.1% 89.1% at 10.9% 50%, #0004FF 0%, #ACADDA 100%);
+            margin-top: -247px;
+               margin-left: -740px;
+              font-family: kovoon; 
+              font-size: 20px;">
+              Browse Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <div class="icon-container">
+          <i class="fas fa-angle-double-left icon"></i>
+        </div>
+        <span aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <div class="icon-container">
+          <i class="fas fa-angle-double-right icon"></i>
+        </div>
+        <span aria-hidden="Previous"></span>
+      </button>
+    </div>
+    <!--end slide-->
+    <!--start contant-->
+    <!--start contant1-->
+    <div class="section  p-4">
+      <h2 class="text-right mb-4">Most popular books  <a href="#" >View more</a></h2>
+      <div class="container mb-5 ">
+        <div class="row mt-4">
+          <div class="col-md-3 mt">
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Books</h5>
+              <h5 class="text-center book-title">الابداع</h5>
+              <img src="image/book4.png" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-md-3" >
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Books</h5>
+              <h5 class="text-center book-title">ذكريات باريس</h5>
+              <img src="image/book13.jpeg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-md-3 mt">
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Books</h5>
+              <h5 class="text-center book-title">نهاية بلا نهاية</h5>
+              <img src="image/book2.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Books</h5>
+              <h5 class="text-center book-title">معرض الجثث</h5>
+              <img src="image/book1.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end contant1-->
+    <!--start contant2-->
+    <div class="section-2  p-5">
+      <h2 class="text-right mb-4">Internation Novels <a href="#" >View more</a></h2>
+      <div class="container mt-5 mb-5">
+        <div class="row mt-4">
+          <div class="col-md-3" >
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title">الصرصار</h5>
+              <img src="image/book8.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-md-3" >
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title"> الصرصار</h5>
+              <img src="image/book7.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title"> فن الهدوء </h5>
+              <img src="image/book6.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title">ثق بنفسك وانطلق </h5>
+              <img src="image/book5.png" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end contant2-->
+    <!--start contant3-->
+    <div class="section-3   p-4">
+      <h2 class="text-right mb-4"> Most downloaded this month <a href="#" >View more</a></h2>
+      <div class="container mt-5 mb-5">
+        <div class="row m-5 justify-content-center" >
+          <div class="col-3 m-5" >
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Books</h5>
+              <h5 class="text-center book-title">البدائع</h5>
+              <img src="image/book4.png" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-3 m-5"  >
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title"> مكتبه منتصف الليل  </h5>
+              <img src="image/book10.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-3 m-5">
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title"> طريق الخوف  </h5>
+              <img src="image/book9.png" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end contant3-->
+    <!--start contant4-->
+    <div class="section-4  p-4">
+      <h2 class="text-right mb-4">Recently released <a href="#" >View more</a></h2>
+      <div class="container mt-5 mb-5">
+        <div class="row mt-4">
+          <div class="col-md-3" >
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title">الصرصار</h5>
+              <img src="image/book8.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-md-3" >
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title"> الصرصار</h5>
+              <img src="image/book7.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title"> فن الهدوء </h5>
+              <img src="image/book6.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title">ثق بنفسك وانطلق </h5>
+              <img src="image/book5.png" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end contant4-->
+    <!--start contant5-->
+    <div class="section-5  bg-light p-4">
+      <h2 class="text-right mb-4"> Most downloaded this month <a href="#" >View more</a></h2>
+      <div class="container mt-5 mb-5">
+        <div class="row m-5 justify-content-center" >
+          <div class="col-3 m-5" >
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Books</h5>
+              <h5 class="text-center book-title">سيدة الفندق</h5>
+              <img src="image/book11.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-3 m-5"  >
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title">الصرصار</h5>
+              <img src="image/book8.jpg" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+          <div class="col-3 m-5">
+            <div class="book-card">
+              <h5 class="text-center book-title-1">Novels</h5>
+              <h5 class="text-center book-title"> طريق الخوف  </h5>
+              <img src="image/book9.png" alt="" srcset="" class="img-fluid ">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end contant5-->
+    <!--start contant6-->
+    <div class="section-6">
+      <h2 class="text-right mb-4"> Quotes from Books and Novels <!--<a href="#" >View more</a> --></h2>
+      <div class="container mt-5 mb-5">
+        <div class="row ">
+          <div class="col ">
+            <div class="book-card">
+              <img src="image/section.6.png" alt="" srcset="" class="img-fluid ">
+              <div class="contan-book">
+                <h5>اقتباسات عبدالله بن المقفع - الماء والنار</h5>
+                <h6 class=" book-title">عبدالله بن المقفع<img src="image/0.png" alt="" srcset=""></h6>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col ">
+            <div class="book-card">
+              <img src="image/section.6.png" alt="" srcset="" class="img-fluid ">
+              <div class="contan-book">
+                <h5>اقتباسات عبدالله بن المقفع - الماء والنار</h5>
+                <h6 class=" book-title">عبدالله بن المقفع<img src="image/0.png"  alt="" srcset=""></h6>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col ">
+            <div class="book-card">
+              <img src="image/section.6.png" alt="" srcset="" class="img-fluid ">
+              <div class="contan-book">
+                <h5>اقتباسات عبدالله بن المقفع - الماء والنار</h5>
+                <h6 class=" book-title">عبدالله بن المقفع<img src="image/0.png"  alt="" srcset=""></h6>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col ">
+            <div class="book-card">
+              <img src="image/section.6.png" alt="" srcset="" class="img-fluid ">
+              <div class="contan-book">
+                <h5>اقتباسات عبدالله بن المقفع - الماء والنار</h5>
+                <h6 class=" book-title">عبدالله بن المقفع<img src="image/0.png"  alt="" srcset=""></h6>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end contant6-->
+    <!--end contant-->
+    <!--start footer-->
+        <div class="footer p-2 ">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2 class="mb-2">Quick Links</h2>
+                <div class="menu">
+                  <div class="menu-item">
+                    <a href="#">
+                      <span class="footer-links"><strong>Who are we?</strong></span>
+                      <i class=" fas fa-user-group footer-links"></i>
+                    </a>
+                  </div>
+                  <div class="menu-item">
+                    <a href="#">
+                      <span class="footer-links">Contact Us</span>
+                      <i class="fas fa-file-circle-plus  footer-links"></i>
+                    </a>
+                  </div>
+                  <div class="menu-item">
+                    <a href="#">
+                      <span class="footer-links">My Account</span>
+                      <i class="fas fa-address-card footer-links"></i>
+                    </a>
+                  </div>
+                  <div class="menu-item">
+                    <a href="#">
+                      <span class="footer-links">Code</span>
+                      <i class="fas fa-code footer-links"></i>
+                    </a>
+                  </div>
+                  <div class="menu-item">
+                    <a href="#">
+                      <span class="footer-links">About Salab</span>
+                      <i class="fas fa-info-circle footer-links"></i>
+                    </a>
+                  </div>
+                  <div class="menu-item">
+                    <a href="#">
+                      <span class="footer-links">Team Work</span>
+                      <i class="fas fa-users footer-links"></i>
+                    </a>
+                  </div>
+              </div>
+              </div>
+              <div class="col">
+                <div class=" text-start ">
+                  <h2 class=" text-white mt-0">Library</h2>
+                  <p class="mt-2 title-footer">The best aite for downloading e-books in various <br>
+                    characters.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="foooter bg-black p-2 ">
+          <div class="row">
+            <div class="col text-center">
+              <p>
+                Copyright 
+                 <span class=" copyright"> &copy; ALzahraa.</span>
+                 library.INC<br>
+                 All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+
+    <!--end footer-->
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
